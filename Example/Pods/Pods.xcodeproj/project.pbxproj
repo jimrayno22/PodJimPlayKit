@@ -10,7 +10,7 @@
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E3ED510C96ABAF995C1D7092D36CF7 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01904B0245AC2031E9ADD586BE7224C0 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B254B5835BB0ED07B971FFE462EAF /* EndWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		01DAA6DD1809A39129FF7C72DDF93054 /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 466716BBEF52AA763D1EA0D672CB003F /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		045ABDE02512123C005717D3 /* JimItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ABDDE25121227005717D3 /* JimItem.swift */; };
+		045ABDE425121FAC005717D3 /* JimItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ABDE325121FAC005717D3 /* JimItem.swift */; };
 		0683FC9DDCAB80660BD11E7159607DB6 /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 707AEBC43F5F7CF3F440B7808237617A /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0725A6F6AF5A97F9D46B3188E135D5B2 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 693AEC1129C22005082E9DCE61AC4307 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0834E167066BF3659E39621F58F440A6 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4946D510D04B66A4D656FA06EFA0F0C /* BeVoid.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -228,7 +228,7 @@
 /* Begin PBXFileReference section */
 		00795B7368253513EDA45BDA3039900A /* PodJimPlayKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PodJimPlayKit-dummy.m"; sourceTree = "<group>"; };
 		0228284DA32C83676E3D14ED01F1FBE5 /* PodJimPlayKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodJimPlayKit-umbrella.h"; sourceTree = "<group>"; };
-		045ABDDE25121227005717D3 /* JimItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JimItem.swift; sourceTree = "<group>"; };
+		045ABDE325121FAC005717D3 /* JimItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JimItem.swift; path = PodJimPlayKit/Classes/JimItem.swift; sourceTree = "<group>"; };
 		04A0BE999F207E5DF122E945B5AFDBEC /* Pods-PodJimPlayKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PodJimPlayKit_Tests.modulemap"; sourceTree = "<group>"; };
 		0513ABDD1CDCF03BC7B82AC7E18620EE /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		05F3D57DE6385F0B15FDECFB5D0CD321 /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickSpecBase/include/QuickSpecBase.h; sourceTree = "<group>"; };
@@ -822,7 +822,7 @@
 			isa = PBXGroup;
 			children = (
 				C0CA015E88A2242ECF04CE2DE04B2939 /* ReplaceMe.swift */,
-				045ABDDE25121227005717D3 /* JimItem.swift */,
+				045ABDE325121FAC005717D3 /* JimItem.swift */,
 				75E8EDD8E6FF4255357978DAE907D7B5 /* Pod */,
 				5AA429F0DCDC8C8EA3B38D633429A203 /* Support Files */,
 			);
@@ -1182,7 +1182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045ABDE02512123C005717D3 /* JimItem.swift in Sources */,
+				045ABDE425121FAC005717D3 /* JimItem.swift in Sources */,
 				0C77C1591C67CCDF910479A10C8616F0 /* PodJimPlayKit-dummy.m in Sources */,
 				0F3F95EC167609C8C05E0C8E6B609C82 /* ReplaceMe.swift in Sources */,
 			);
@@ -1639,7 +1639,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1956,7 +1956,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

@@ -1,6 +1,6 @@
 //
 //  JimItem.swift
-//  FBSnapshotTestCase
+//  PodJimPlayKit
 //
 //  Created by mac on 16/9/2020.
 //

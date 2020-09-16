@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'PodJimPlayKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PodJimPlayKit.'
+  s.summary          = 'PodJimPlayKit is a lib just for fun.'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  PodJimPlayKit is a lib just for fun , I just try to learn about how to create a pod library myself.
                        DESC
 
   s.homepage         = 'https://github.com/jimrayno22/PodJimPlayKit'
