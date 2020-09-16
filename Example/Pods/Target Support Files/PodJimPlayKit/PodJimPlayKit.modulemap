@@ -1,0 +1,6 @@
+framework module PodJimPlayKit {
+  umbrella header "PodJimPlayKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

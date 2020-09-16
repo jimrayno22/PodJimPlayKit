@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045ABDD825120B31005717D3 /* Pods_PodJimPlayKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1ED8382C1BF7F5F5E1EF1C /* Pods_PodJimPlayKit_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		B7A60CF005EA9AD07AFC5F3B /* Pods_PodJimPlayKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1ED8382C1BF7F5F5E1EF1C /* Pods_PodJimPlayKit_Example.framework */; };
 		E1A5E3A64D8372B9B7C7BE1B /* Pods_PodJimPlayKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DCAE40F05801E3554B3473 /* Pods_PodJimPlayKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* PodJimPlayKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodJimPlayKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7160F1432CB3F1EF6CF29840 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9D2EF9D5B64F4DFCC3CDC784 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7160F1432CB3F1EF6CF29840 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9D2EF9D5B64F4DFCC3CDC784 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BDCD1287FFE6322140E09EF6 /* Pods-PodJimPlayKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodJimPlayKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PodJimPlayKit_Tests/Pods-PodJimPlayKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D145AFBBCFDB4A1452FD06C5 /* Pods-PodJimPlayKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodJimPlayKit_Example.release.xcconfig"; path = "Target Support Files/Pods-PodJimPlayKit_Example/Pods-PodJimPlayKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6844D34FDE4C80DFE9F2D09 /* Pods-PodJimPlayKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodJimPlayKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-PodJimPlayKit_Example/Pods-PodJimPlayKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EE2CCF06507EA33B37A2ED98 /* PodJimPlayKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PodJimPlayKit.podspec; path = ../PodJimPlayKit.podspec; sourceTree = "<group>"; };
+		EE2CCF06507EA33B37A2ED98 /* PodJimPlayKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PodJimPlayKit.podspec; path = ../PodJimPlayKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7A60CF005EA9AD07AFC5F3B /* Pods_PodJimPlayKit_Example.framework in Frameworks */,
+				045ABDD825120B31005717D3 /* Pods_PodJimPlayKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,6 @@
 				BDCD1287FFE6322140E09EF6 /* Pods-PodJimPlayKit_Tests.debug.xcconfig */,
 				3EEF35ED9E890FA7E497F9A5 /* Pods-PodJimPlayKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
