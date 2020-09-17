@@ -9,6 +9,6 @@ import Foundation
 
 public class JimItem: NSObject {
     public override init() {
-        print("jim Item Init!")
+        print("jim Item Init with new version!")
     }
 }
