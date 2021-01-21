@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodJimPlayKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'PodJimPlayKit is a lib just for fun.'
   s.swift_version    = '5.0'
 
